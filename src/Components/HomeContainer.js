@@ -7,12 +7,13 @@ import moment from "moment"
 import Marquee from "react-fast-marquee";
 import statistics from '../assets/statistics.png';
 import Marque from "./Header/marquee";
+import arrowFunction from "../CommonFunctions/arrow";
 class HomeContainer extends Component {
     constructor(props){
         super(props)
         this.state ={
             news :[],
-            list : [ "CBKCQ","ISAPF","SAGGF","ATEN","GCI"],
+            list : [ "AAPL","TSLA","IBM","WMT","GME"],
             listData:[]
         }
     }
@@ -23,6 +24,17 @@ class HomeContainer extends Component {
           this.setState({ news : res.slice(0,5)})
         }
     }
+
+    // arrowfunction =(value)=>{
+    //     if(value === 0) { return <i className="fa fa-minus"></i>}
+    //     let arrow = value.toString();
+    //     if(arrow.indexOf("-") !== -1){
+    //    return <i className="fa fa-angle-down"></i>
+    //     }else{
+    //         return <i className="fa fa-angle-up"></i>
+    //     }
+
+    // }
 
  shareDataFunction = async()=>{
        const {list} = this.state;
@@ -50,10 +62,8 @@ class HomeContainer extends Component {
    
     render() {
         const {news , listData} = this.state ;
-        console.log(listData , "45****")
         return (
             <>
-            {/* <Marquee listData ={listData}/> */}
              <Marque listData ={listData}/>
                 <HeaderComponent/>
                 <div className="Section">
@@ -89,15 +99,11 @@ class HomeContainer extends Component {
                                                 <h3>{item.symbol}</h3>
                                             </div>
                                             {/* <i className="fa fa-eye"></i> */}
-                                            <span className="spanwidth">{(item?.data?.d).toFixed(2)}% <i className="fa fa-angle-down"></i></span>
-                                            
-                                            <span className="lastSpan">{item?.data?.c}</span>
+                                            <span className="spanwidth">{(item?.data?.d).toFixed(2)}% {arrowFunction(item?.data?.d)}</span>
+                                            <span className="lastSpan">{(item?.data?.c).toFixed(2)}</span>
                                         </div>
                                             })
-
                                         }
-                                        
-                                      
                                     </div>
                                 </div>
                             </Col>

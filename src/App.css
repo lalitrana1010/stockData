@@ -173,6 +173,14 @@ span.spanwidth i.fa.fa-angle-down {
   font-size: 18px;
   color: red;
 }
+span.spanwidth i.fa.fa-angle-up {
+  font-size: 18px;
+  color: green;
+}
+span.spanwidth i.fa.fa-minus {
+  font-size: 18px;
+  color: grey;
+}
 .listloop {
   display: flex;
   border-bottom: 1px solid #eaeaea;
