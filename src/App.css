@@ -1,0 +1,321 @@
+.HeaderSec {
+  background: #151e28;
+  padding: 20px 0;
+  display: flex;
+  align-content: center;
+}
+.Navbar.nav {
+  justify-content: space-between;
+  align-items: center;
+}
+.searchNav {
+  position: relative;
+}
+.searchNav .fa {
+  position: absolute;
+  top: 10px;
+  left: 13px;
+  color: #fff;
+  font-size: 13px;
+}
+.rightSideNav {
+  display: flex;
+  align-items: center;
+}
+.rightSideNav {
+  display: flex;
+  align-items: center;
+}
+.rightSideNav a img {
+  width: 27px;
+}
+.rightSideNav button.btn.btn-primary {
+  background: #1890ff;
+  padding: 10px 26px;
+}
+.SubLeft img {
+  width: 220px;
+}
+.marketsection {
+  padding: 25px 30px;
+  background: #fff;
+  box-shadow: 0px 0px 20px #ebe6e6;
+  border-radius: 20px
+}
+.marketsection .rightNews h3 {
+  font-size: 15px;
+  margin: 0px 0 10px;
+}
+.marketsection .rightNews p {
+  font-size: 13px;
+}
+.marketsection .rightNews span {
+  font-size: 11px;
+}
+.marketsection h3 {
+  font-size: 24px;
+  margin: 11px 0 40px;
+}
+.searchNav input {
+  background: #81878c;
+  border: none;
+  border-radius: 5px;
+  height: 34px;
+  padding-left: 40px;
+  width: 356px;
+  font-size: 14px;
+  color: #000;
+}
+.searchNav input::placeholder{
+  color : #000;
+}
+input:focus {
+  outline: none;
+}
+.rightSideNav a {
+margin-right: 35px;
+}
+.rightSideNav a .fa{
+color: #fff;
+}
+.RightSecHed {
+  justify-content: flex-end;
+  display: flex;
+}
+.RightSecHed p {
+  margin: 10px 15px 0 0;
+  color: #000;
+  font-weight: 500;
+}
+.RightSecHed button {
+  color: #fff;
+  background-color: #000;
+  border: none;
+  padding: 10px 25px;
+}
+.leftSectionbar {
+  background: #fff;
+  padding: 30px 20px 20px;
+  border-radius: 0;
+  box-shadow: 0px 0px 20px #ebe6e6;
+}
+.TopHedleft .TopHed {
+  display: flex;
+  flex-direction: row;
+  font-size: 13px;
+}
+.TopHed p {
+  margin: 0 5px 0 0px;
+  font-weight: 500;
+  color:#000;
+}
+.TopHed .GreenColor {
+  color: #64ca31;
+  margin: 0 5px 0 0px;
+}
+.TopHedleft {
+display: flex;
+justify-content: space-between;
+margin: 0 0 15px;
+}
+.rightSideNav a i.fa.fa-tag {
+  transform: rotate(85deg);
+  font-size: 20px;
+}
+.HedleftSearch {
+  display: flex;
+  position: relative;
+  margin-bottom: 10px;
+  margin-top: 12px;
+}
+.HedleftSearch input {
+  width: 100%;
+  height: 38px;
+  padding-right: 42px;
+  border: 1px solid #e8e8e8;
+  border-radius: 6px;
+  padding-left: 10px;
+  font-size: 14px;
+  color: #000;
+}.HedleftSearch .fa.fa-search {
+  width: 35px;
+  position: absolute;
+  right: 0;
+  top: 1px;
+  height: 36px;
+  display: flex;
+  line-height: 36px;
+  justify-content: center;
+  border-left: 1px solid #e8e8e8;
+  color: #959595;
+}
+.ListSearch {
+display: flex;
+flex-direction: column;
+}
+.listloop h3 {
+  font-size: 14px;
+  margin: 0 15px 0 0px;
+  min-width: 130px;
+  color: #64ca31;
+}
+.listloop span {
+  margin: 0 7px;
+  width: 70px;
+  text-align: right;
+}
+span.spanwidth {
+  width: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+span.spanwidth i.fa.fa-angle-down {
+  font-size: 18px;
+  color: red;
+}
+.listloop {
+  display: flex;
+  border-bottom: 1px solid #eaeaea;
+  padding: 10px;
+  font-size: 12px;
+  align-items: center;
+  justify-content: space-between;
+}
+.SubsPlanSection {
+display: flex;
+align-items: center;
+flex-direction: row;
+padding: 50px 20px;
+box-shadow: 0px 0px 20px #ebe6e6;
+border-radius: 20px;
+}
+span.blueColor {
+  color: #1890ff;
+  font-weight: 700;
+}
+.SubRight h3 {
+  font-weight: 300;
+}
+.SubRight p {
+  color: #5c5959;
+  font-weight: 100;
+}
+.Chooseaplan {
+  margin: 70px 0 50px;
+  font-size: 24px;
+}
+.SubRight button.btn.btn-primary {
+  background: #151e28;
+  border: 0px;
+  padding: 8px 20px;
+  font-size: 14px;
+}
+.SubLeft {
+  width: 50%;
+  text-align: center;
+}
+.planDiv {
+  padding: 30px 20px;
+  box-shadow: 0px 0px 20px #ebe6e6;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.planDiv h3 {
+  margin: 10px 0 0 0;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 400;
+}
+.planDiv b {
+  margin: 0 0 20px;
+  font-size: 18px;
+}
+.planDiv p {
+  color: #1890ff;
+  margin-top: 5px;
+  font-size: 14px;
+}
+.planDiv button.btn.btn-primary {
+  box-shadow: 0px 0px 10px #b8b7b7;
+  padding: 10px 26px;
+  margin-top: 10px;
+}
+.planDiv img {
+  width: 60px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.Newsloop {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0px 0px 10px #efecec;
+  margin-bottom: 20px;
+}
+.Topbar.TopHed {
+  display: flex;
+  flex-direction: row;
+  padding: 0 20px;
+  border-right: 1px solid #dfdfdf;
+}
+.Topbar.TopHed span.text-muted {
+  margin-left: 7px;
+}
+.Topbar.TopHed p, .Topbar.TopHed .GreenColor {
+  color: #fff;
+}
+.Topbar.TopHed p, .Topbar.TopHed .GreenColor {
+  margin: 0 5px;
+}
+.Topbar.TopHed span.text-muted {
+  margin-left: 7px;
+}
+.Newsloop .NewsImgLeft img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.Newsloop .NewsImgLeft {
+width: 150px;
+min-width: 150px;
+}
+.rightNews {
+  margin-right: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 19px;
+}
+.marquee-container {
+  height: 40px;
+  background: #2d3640;
+  color: red;
+}
+.marquee-container .overlay::before {
+  left: 0;
+  top: 0;
+  width: 80px;
+  background: #2e3741;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 18px;
+  box-shadow: 0px 0px 30px #000;
+  content: "\f104";
+  font: normal normal normal 18px/1 FontAwesome;
+}
+.marquee-container  .overlay::after {
+  
+  width: 35px;
+  content: '';
+  box-shadow: 0px 0px 30px #000;
+  background: #2e3741;
+}
+.marquee {
+  color: #fff;
+  font-size: 14px;
+}
